@@ -3,4 +3,5 @@ class Post
   include Mongoid::Timestamps
   field :title, type: String
   field :body, type: String
+  field :cool, type: Boolean
 end
